@@ -1,5 +1,14 @@
 {
  "cells": [
+    {
+   "cell_type": "code",
+   "execution_count": 22,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Implementation of Rinott's ranking and selection procedure"
+   ]
+  },
   {
    "cell_type": "code",
    "execution_count": 23,
@@ -375,6 +384,15 @@
     "results = results.rename(index = {0: 1, 1: 2, 2: 3, 3: 4, 4: 5, 5: 6, 6: 7, 7: 8, 8: 9, 9: 10})\n",
     "results.to_csv(index=True, path_or_buf = '/results.csv')\n",
     "results"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Implementation of Kiefer-Wolfowitz algorithm"
    ]
   },
   {
